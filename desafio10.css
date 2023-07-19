@@ -1,0 +1,113 @@
+@charset UTF-8;
+@font-face {
+    font-family: droid ;
+    src: url("idroid")format("opentype") ;
+    font-weight: normal;
+    font-style: normal;
+}
+main{
+    min-width: 320px;
+    max-width: 1500px;
+    margin: auto;
+    box-shadow: 3px 5px 5px black;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding-top: 10px;
+    min-height: 150px;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 9em;
+    color: white;
+    background-image: linear-gradient(to bottom, #089118fd, rgba(11, 44, 3, 0.842)); 
+}
+nav{
+    position: absolute;
+    top: 130px;
+}
+header>nav>a{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-style: none;
+
+}
+nav>a:hover{
+    text-decoration: underline;
+    background-color: chartreuse;
+    border-radius: 5%;
+    transition-duration: .5s;
+    font-weight: bold;
+}
+header>h1{
+    text-align: center;
+    
+}
+h2{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -.7em;
+    font-size: 20px;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+    font-size: larger;
+}
+section>h1{
+    background-image: linear-gradient(to right, #09BA68, white);
+}
+footer>h2{
+    background-color: black;
+    color: white  ;
+    font-weight: bold;
+    padding-top: 10px;
+    min-height: 150px;
+    margin-top: 40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+}
+
+span>a:hover{
+    background-color: #021bfd6e;
+    transition-duration: .7s;
+    text-decoration: none;
+}
+#bugdroid{
+    max-width: 80%;
+}
+article>ul{
+   
+    columns: 2;
+    padding: 5px;
+    list-style: inside;
+}
+.sectt{
+    background-color: #0eee858e;
+    border-radius: 20px 20px 0px 0px;
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+    background-color: rgba(0, 162, 255, 0.747);
+    border-radius: 20px 20px 0px 0px;
+}
+div.video{
+    
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video>iframe{/*centralizar video*/
+   position: absolute;
+   top: 25px;
+   left: 50px ;
+   width: 80%;
+   height: 80%;
+}
