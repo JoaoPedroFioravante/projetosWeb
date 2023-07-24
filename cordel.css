@@ -1,0 +1,85 @@
+@charset UTF-8;
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30vh;
+    margin: -8vh -2vw 7vh -2vw ;
+}
+header>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-variant: small-caps;
+    font-size: 4vw;
+   text-align: center;
+}
+header>nav>p{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-size: 2vw;}
+  
+header>nav>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 2vw;
+}
+header>nav>p>a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    animation-duration: 1s;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+section{
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+section>p{
+    text-align: left;
+    font-size: 2vw;
+    text-indent: 10px;  
+}
+footer{
+    background-color: black;
+    color: white;
+    height: ;
+}
+section.img{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    box-shadow: inset 5px 5px 15px 0px black
+}
+section.nimg{
+background-color: white;
+color: black;
+}
+section.img>p{
+    background-color: rgba(0, 0, 0, 0.473);
+    box-shadow: 4px 3px 10px black;
+    
+}
+section#img01{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+}
+section#img02{
+    background-image: url(image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+}
